@@ -1,0 +1,18 @@
+:root{
+    --main-color:#E71D36;
+    --background-color:#2D3142;
+    --secondary-color:#939597;
+}
+
+.App {
+    background-color:var(--background-color);
+  }
+
+  .MenuLine {
+    border-bottom: 4px solid var(--secondary-color);
+  }
+
+  .Menu {
+    color : var(--main-color);
+    font-family:'Ubuntu';
+  }
