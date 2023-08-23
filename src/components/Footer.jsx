@@ -9,12 +9,6 @@ const Footer = () => {
             <div className="container">
                 <div className="text-center lg:text-left lg:flex justify-between items-center">
                     <Logo variant="dark"/>
-
-                    {/* Copyright */}
-                    <p>
-                        &copy; Rokstar {new Date().getFullYear()}, Made with <AiFillHeart
-                        className="inline text-red-600"/> By Divergent Studio.
-                    </p>
                 </div>
             </div>
 
