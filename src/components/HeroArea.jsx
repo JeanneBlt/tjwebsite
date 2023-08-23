@@ -6,7 +6,8 @@ const HeroArea = () => {
     return (
         <section
             id="hero"
-            style={{backgroundImage: `url(${heroBg})`}}
+            // style={{backgroundImage: `url(${heroBg})`}}
+            style={{ backgroundColor: '#202020' }}
             className="relative bg-cover bg-no-repeat bg-center-top h-[300px] sm:h-[450px] md:h-[500px] lg:h-[600px] xl:h-[800px] flex items-center"
         >
             <div className="container">

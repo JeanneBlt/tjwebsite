@@ -17,7 +17,7 @@ const Header = () => {
                 <div className="sm:flex items-center justify-between">
                     <div className="flex items-center justify-between">
                         {/* Logo */}
-                        <Logo/>
+                        {/* <Logo/> */}
 
                         {/* Mobile Menu Icon */}
                         <span className="sm:hidden">

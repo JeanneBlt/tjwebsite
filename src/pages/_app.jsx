@@ -4,7 +4,7 @@ const Rokstar = ({Component, pageProps}) => {
     return (
         <>
             <Head>
-                <title>Rokstar :: React Portfolio Template</title>
+                <title>TechnoloJ Web Site</title>
             </Head>
             <Component {...pageProps} />
         </>

@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3, h4 {
-    @apply font-bold;
+    font-weight: 500;
 }
 
 h5, h6 {
@@ -74,4 +74,14 @@ ul, ol {
     100% {
         transform: rotate(359deg);
     }
+}
+
+/* redesign */
+
+.before\:bg-dark::before {
+    --tw-bg-opacity: 0 !important;
+}
+
+.font-heading {
+    font-family: "Montserrat", sans-serif;
 }
