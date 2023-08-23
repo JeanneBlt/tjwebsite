@@ -14,10 +14,11 @@ const Contact = () => {
                     <div className="col-span-5">
                         <div className="font-medium space-y-2">
                             <address className="not-italic">
-                                48 allée des lentisques, Villeneuve-les-Avignon 30400
+                                100 Main St, Blacktown NSW 2148,<br/>
+                                Australia
                             </address>
-                            <p>jeanne.boulet@edu.esiee.fr</p>
-                            <p>+33619190699</p>
+                            <p>support@bold.com, info@youremail.com</p>
+                            <p>+256-4516-556, +(257) 56812749</p>
                         </div>
 
                         <SocialMedia className="mt-6 md:mt-10"/>
