@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Portfolio 1",
-    "categories": ["marketing"],
+    "categories": ["School projects"],
     "thumb": "01.jpg",
     "featuredVideo": true,
     "videoLink": "https://www.youtube.com/watch?v=Hl3ZnQp4_S0"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "title": "Portfolio 2",
-    "categories": ["web", "marketing"],
+    "categories": ["School projects"],
     "thumb": "02.jpg",
     "featuredVideo": false,
     "videoLink": null
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "title": "Portfolio 3",
-    "categories": ["graphics", "web", "marketing"],
+    "categories": ["School projects"],
     "thumb": "03.jpg",
     "featuredVideo": false,
     "videoLink": null
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "title": "Portfolio 4",
-    "categories": ["marketing", "graphics"],
+    "categories": ["Personal projects"],
     "thumb": "04.jpg",
     "featuredVideo": false,
     "videoLink": null
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "title": "Portfolio 5",
-    "categories": ["web"],
+    "categories": ["School projects"],
     "thumb": "05.jpg",
     "featuredVideo": false,
     "videoLink": null
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "title": "Portfolio 6",
-    "categories": ["graphics"],
+    "categories": ["School projects"],
     "thumb": "06.jpg",
     "featuredVideo": false,
     "videoLink": null

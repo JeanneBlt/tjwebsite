@@ -8,13 +8,25 @@
   {
     "id": 2,
     "title": "Illustrator",
-    "desc": "That a brought to just try with my boss; I'd get out the spot. But who know maybe that would be best",
-    "icon": "service-illustrator.png"
+    "desc": "Visual Studio, BlueJ, GitHub, Linux, Cisco Packet tracer, MySQL, VirtualBox, Unity, Android Studio, SSMS 18",
+    "icon": "software-logo.png"
   },
   {
     "id": 3,
-    "title": "Branding Identity",
-    "desc": "Brought a to just try that with my boss; I'd get kicked out on the spot. But who's knows maybe the better",
-    "icon": "service-branding.png"
+    "title": "Assets",
+    "desc": "Sociable, Passionnate, Determined",
+    "icon": "assets-logo.png"
+  },
+  {
+    "id": 4,
+    "title": "Illustrator",
+    "desc": "That a brought to just try with my boss; I'd get out the spot. But who know maybe that would be best",
+    "icon": "professionnal-logo.png"
+  },
+  {
+    "id": 5,
+    "title": "Illustrator",
+    "desc": "That a brought to just try with my boss; I'd get out the spot. But who know maybe that would be best",
+    "icon": "language-logo.png"
   }
 ]

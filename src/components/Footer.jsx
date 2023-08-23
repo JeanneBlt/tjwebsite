@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className="bg-gray-50 pt-10 md:pt-14 lg:pt-5 pb-5 relative">
             <div className="container">
                 <div className="text-center lg:text-left lg:flex justify-between items-center">
-                    <Logo variant="dark"/>
+                    {/* <Logo variant="dark"/> */}
                 </div>
             </div>
 
