@@ -11,7 +11,7 @@ const Header = () => {
     const [isMobileNavShow, setIsMobileNavShow] = useState(false);
 
     return (
-        <header className={`fixed bg-dark left-0 top-0 w-full z-30 duration-400 ${position >= 200 ? "py-2 pb-4" : "py-2 md:py-5"}`}>
+        <header className={`fixed bg-dark left-0 top-0 w-full z-30 duration-400 ${position >= 200 ? "py-2 pb-6 pt-6" : "py-2 md:py-5"}`}>
 
             <div className="container">
                 <div className="sm:flex items-center justify-between">

@@ -15,29 +15,30 @@ const Services = () => {
                         <img src="images/education-logo.png"/>
                         </div>
                         <div>
-                            <h2 className="font-semibold text-base mb-1">Education</h2>
-                            <div className="flex flex-col md:flex-row">
-                                <p className="mr-2 mb-1 md:mb-0 font-semibold">From September 2021 to July 2022</p>
-                                <p className="md:mb-0"><span className="font-semibold">ESIEE Paris Noisy-Le-Grand</span><br />First year of engineering cycle Computer engineering school</p>
-                                <p></p>
-                            </div>
-                            <div className="flex flex-col md:flex-row">
-                                <p className="mr-2 mb-1 md:mb-0 font-semibold">From September 2019 to July 2021</p>
-                                <p className="md:mb-0"><span className="font-semibold">Mistral High School Villeneuve les Avignon</span><br />A two year post-A secondary level course Preparation for the competitive entrance exams for M.Sc courses at engineering universities</p>
-                                <p></p>
-                            </div>
-                            <div className="flex flex-col md:flex-row">
-                                <p className="mr-2 mb-1 md:mb-0 font-semibold">From September 2018 to July 2019</p>
-                                <p className="md:mb-0"><span className="font-semibold">Jean Vilar High School Villeneuve les Avignon</span><br />National Secondary level diploma Specialization in math and physics</p>
-                            </div>
-                        </div>
+    <h2 className="font-semibold text-base mb-1">Education</h2>
+    <div className="flex flex-col md:flex-row">
+        <p className="mr-2 mb-1 md:mb-0 font-semibold"><span className="date-placeholder">Since September 2021</span></p>
+        <p className="md:mb-0"><span className="font-semibold">ESIEE Paris Noisy-Le-Grand</span><br/>First year of engineering cycle Computer engineering school</p>
+        <p></p>
+    </div>
+    <div className="flex flex-col md:flex-row">
+        <p className="mr-2 mb-1 md:mb-0 font-semibold"><span className="date-placeholder">From September 2019 to July 2021</span></p>
+        <p className="md:mb-0"><span className="font-semibold">Mistral High School Villeneuve les Avignon</span><br />A two year post-A secondary level course Preparation for the competitive entrance exams for M.Sc courses at engineering universities</p>
+        <p></p>
+    </div>
+    <div className="flex flex-col md:flex-row">
+        <p className="mr-2 mb-1 md:mb-0 font-semibold"><span className="date-placeholder">From September 2018 to July 2019</span></p>
+        <p className="md:mb-0"><span className="font-semibold">Jean Vilar High School Villeneuve les Avignon</span><br />National Secondary level diploma Specialization in math and physics</p>
+    </div>
+</div>
+
                     </div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-7">
                     {otherServices.map(service => (
                         <Service
                             key={service.id}
-                            desc={service.desc}
+                            desc={<div className="bio-text" dangerouslySetInnerHTML={{__html: service.desc}}/>}
                             title={service.title}
                             thumb={`/images/${service.icon}`}
                         />

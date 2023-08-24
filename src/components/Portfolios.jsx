@@ -64,6 +64,7 @@ const Portfolios = () => {
                             videoLink={portfolio.videoLink}
                             featuredVideo={portfolio.featuredVideo}
                             thumb={`/images/portfolio/${portfolio.thumb}`}
+                            link={portfolio.link}
                         />
                     ))}
                 </div>

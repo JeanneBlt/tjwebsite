@@ -1,50 +1,34 @@
 [
   {
     "id": 1,
-    "title": "Portfolio 1",
+    "title": "The Test",
     "categories": ["School projects"],
-    "thumb": "01.jpg",
-    "featuredVideo": true,
-    "videoLink": "https://www.youtube.com/watch?v=Hl3ZnQp4_S0"
+    "thumb": "spawnforest.jpg",
+    "featuredVideo": false,
+    "link": "https://github.com/JeanneBlt/Test"
   },
   {
     "id": 2,
-    "title": "Portfolio 2",
+    "title": "Flipper",
     "categories": ["School projects"],
-    "thumb": "02.jpg",
+    "thumb": "flipper-image.jpg",
     "featuredVideo": false,
-    "videoLink": null
+    "link": "https://github.com/JeanneBlt/Flipper"
   },
   {
     "id": 3,
-    "title": "Portfolio 3",
+    "title": "Labyrinthe",
     "categories": ["School projects"],
-    "thumb": "03.jpg",
+    "thumb": "labyrinthe-image.jpg",
     "featuredVideo": false,
-    "videoLink": null
+    "link": "https://github.com/JeanneBlt/Labyrinthe"
   },
   {
     "id": 4,
-    "title": "Portfolio 4",
-    "categories": ["Personal projects"],
-    "thumb": "04.jpg",
-    "featuredVideo": false,
-    "videoLink": null
-  },
-  {
-    "id": 5,
-    "title": "Portfolio 5",
+    "title": "Esquive",
     "categories": ["School projects"],
-    "thumb": "05.jpg",
+    "thumb": "esquive-image.jpg",
     "featuredVideo": false,
-    "videoLink": null
-  },
-  {
-    "id": 6,
-    "title": "Portfolio 6",
-    "categories": ["School projects"],
-    "thumb": "06.jpg",
-    "featuredVideo": false,
-    "videoLink": null
+    "link": "https://github.com/JeanneBlt/Esquive"
   }
 ]
