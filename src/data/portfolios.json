@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "The Test",
-    "categories": ["School projects"],
+    "categories": ["School Projects"],
     "thumb": "spawnforest.jpg",
     "featuredVideo": false,
     "link": "https://github.com/JeanneBlt/Test"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "title": "Flipper",
-    "categories": ["School projects"],
+    "categories": ["School Projects"],
     "thumb": "flipper-image.jpg",
     "featuredVideo": false,
     "link": "https://github.com/JeanneBlt/Flipper"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "title": "Labyrinthe",
-    "categories": ["School projects"],
+    "categories": ["School Projects"],
     "thumb": "labyrinthe-image.jpg",
     "featuredVideo": false,
     "link": "https://github.com/JeanneBlt/Labyrinthe"
@@ -26,9 +26,17 @@
   {
     "id": 4,
     "title": "Esquive",
-    "categories": ["School projects"],
+    "categories": ["School Projects"],
     "thumb": "esquive-image.jpg",
     "featuredVideo": false,
     "link": "https://github.com/JeanneBlt/Esquive"
+  },
+  {
+    "id": 5,
+    "title": "Unity Project",
+    "categories": ["Personal Projects"],
+    "thumb": "unity-project.jpg",
+    "featuredVideo": false,
+    "link": ""
   }
 ]
