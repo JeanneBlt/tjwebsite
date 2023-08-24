@@ -1,50 +1,43 @@
 [
   {
     "id": 1,
-    "title": "Portfolio 1",
+    "title": "C++ Exercices",
     "categories": ["School projects"],
     "thumb": "01.jpg",
-    "featuredVideo": true,
-    "videoLink": "https://www.youtube.com/watch?v=Hl3ZnQp4_S0"
+    "featuredVideo": false,
+    "videoLink": "",
+    "link": "https://github.com/JeanneBlt/Unit--de-C--"
   },
   {
     "id": 2,
-    "title": "Portfolio 2",
+    "title": "Flipper",
     "categories": ["School projects"],
     "thumb": "02.jpg",
     "featuredVideo": false,
-    "videoLink": null
+    "link": "https://github.com/JeanneBlt/Flipper"
   },
   {
     "id": 3,
-    "title": "Portfolio 3",
+    "title": "Labyrinthe",
     "categories": ["School projects"],
     "thumb": "03.jpg",
     "featuredVideo": false,
-    "videoLink": null
+    "link": "https://github.com/JeanneBlt/Labyrinthe"
   },
   {
     "id": 4,
-    "title": "Portfolio 4",
-    "categories": ["Personal projects"],
+    "title": "Esquive",
+    "categories": ["School projects"],
     "thumb": "04.jpg",
     "featuredVideo": false,
-    "videoLink": null
+    "link": "https://github.com/JeanneBlt/Esquive"
   },
   {
     "id": 5,
-    "title": "Portfolio 5",
-    "categories": ["School projects"],
-    "thumb": "05.jpg",
-    "featuredVideo": false,
-    "videoLink": null
-  },
-  {
-    "id": 6,
-    "title": "Portfolio 6",
+    "title": "The Test",
     "categories": ["School projects"],
     "thumb": "06.jpg",
     "featuredVideo": false,
-    "videoLink": null
+    "link": "https://github.com/JeanneBlt/Test"
   }
 ]

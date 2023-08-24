@@ -9,7 +9,7 @@ import getYoutubeVideoId from "../utils/getYoutubeVideoId";
 
 const ModalVideo = dynamic(() => import('react-modal-video'), {ssr: false});
 
-const Portfolio = ({title, thumb, featuredVideo, videoLink}) => {
+const Portfolio = ({title, thumb, featuredVideo, videoLink, link}) => {
     const [isOpen, setOpen] = useState(false);
     let channel, videoId;
 
@@ -29,6 +29,11 @@ const Portfolio = ({title, thumb, featuredVideo, videoLink}) => {
             <div
                 className={`relative duration-400 rounded-md overflow-hidden hover:drop-shadow-portfolio ${featuredVideo ? bgOverlay : ""}`}
             >
+                 {link ? (
+                    <a href={link} target="_blank" rel="noopener noreferrer">
+                        <Image src={thumb} alt={title} />
+                    </a>
+                ) : (
                 <Link href="/">
                     <a>
                         <Image
@@ -37,6 +42,7 @@ const Portfolio = ({title, thumb, featuredVideo, videoLink}) => {
                         />
                     </a>
                 </Link>
+                )}
                 {featuredVideo && (
                     <button
                         className="absolute inset-0 text-6xl text-white w-full z-10"
