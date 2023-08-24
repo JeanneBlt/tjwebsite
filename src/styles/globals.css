@@ -85,3 +85,8 @@ ul, ol {
 .font-heading {
     font-family: "Montserrat", sans-serif;
 }
+
+.date-placeholder {
+    display: inline-block;
+    width: 220px; /* Ajustez la largeur en fonction de vos besoins */
+}
