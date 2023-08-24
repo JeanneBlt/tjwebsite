@@ -1,30 +1,24 @@
 [
   {
     "id": 1,
-    "title": "Education",
-    "desc": "I brought to just trying that with my boss; I'd get kicked out on the spot. But who knows would be the best",
-    "icon": "education-logo.png"
-  },
-  {
-    "id": 2,
     "title": "Illustrator",
     "desc": "Visual Studio, BlueJ, GitHub, Linux, Cisco Packet tracer, MySQL, VirtualBox, Unity, Android Studio, SSMS 18",
     "icon": "software-logo.png"
   },
   {
-    "id": 3,
+    "id": 2,
     "title": "Assets",
     "desc": "Sociable, Passionnate, Determined",
     "icon": "assets-logo.png"
   },
   {
-    "id": 4,
+    "id": 3,
     "title": "Illustrator",
     "desc": "That a brought to just try with my boss; I'd get out the spot. But who know maybe that would be best",
     "icon": "professionnal-logo.png"
   },
   {
-    "id": 5,
+    "id": 4,
     "title": "Illustrator",
     "desc": "That a brought to just try with my boss; I'd get out the spot. But who know maybe that would be best",
     "icon": "language-logo.png"
