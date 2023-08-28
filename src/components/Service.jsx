@@ -27,7 +27,10 @@ const serviceAfter = "after:absolute after:left-9 after:bottom-4 after:h-[10px] 
 Service.propTypes = {
     thumb: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
-    desc: PropTypes.string.isRequired,
-}
+    desc: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.object // Ou le type approprié pour desc
+    ]).isRequired,
+};
 
 export default Service;
