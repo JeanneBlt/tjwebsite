@@ -4,13 +4,13 @@
   "thumb": "about-left-thumb.jpg",
   "socialMedia": [
     {
-      "id": 3,
+      "id": 1,
       "media": "linkedin",
       "icon": "FaLinkedinIn",
       "link": "https://www.linkedin.com/in/jeanne-boulet-12034522b/"
     },
     {
-      "id": 4,
+      "id": 2,
       "media": "github",
       "icon": "FaGithub",
       "link": "https://github.com/JeanneBlt"
