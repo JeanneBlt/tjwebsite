@@ -13,21 +13,23 @@ const Portfolios = () => {
         const target = event.target;
         const value = target.dataset.filter;
         setFilterValue(value);
-        const portfolioFiltered = portfolios.map(portfolio => {
-            return {
-                ...portfolio,
-                category: portfolio.categories.find(cate => cate === value)
-            }
-        }).filter(item => item.category === value);
+        const portfolioFiltered = Array.isArray(portfolios)
+    ? portfolios.map(portfolio => ({
+        ...portfolio,
+        category: portfolio.categories.find(cate => cate === value)
+    })).filter(item => item.category === value)
+    : [];
 
         value === "*" ? setFilteredPortfolios(portfolios) : setFilteredPortfolios(portfolioFiltered);
     };
 
 
     useEffect(() => {
-        const filteredCategories = portfolios.map(portfolio => portfolio.categories);
-        const uniqueCategories = [...new Set(filteredCategories.flat())];
-        setCategories(uniqueCategories);
+        if (Array.isArray(portfolios)) {
+            const filteredCategories = portfolios.map(portfolio => portfolio.categories);
+            const uniqueCategories = [...new Set(filteredCategories.flat())];
+            setCategories(uniqueCategories);
+        }
     }, []);
 
 
@@ -44,29 +46,29 @@ const Portfolios = () => {
                     >
                         All
                     </button>
-                    {categories.map(category => (
-                        <button
-                            key={category}
-                            data-filter={category}
-                            onClick={(event) => onFilterHandler(event)}
-                            className={`${filterNavItemStyle} ${filterValue === category ? filterNavItemActiveStyle : ""}`}
-                        >
-                            {category}
-                        </button>
-                    ))}
+                    {Array.isArray(categories) && categories.map(category => (
+    <button
+        key={category}
+        data-filter={category}
+        onClick={(event) => onFilterHandler(event)}
+        className={`${filterNavItemStyle} ${filterValue === category ? filterNavItemActiveStyle : ""}`}
+    >
+        {category}
+    </button>
+))}
                 </nav>
 
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-7">
-                    {filteredPortfolios.map(portfolio => (
-                        <Portfolio
-                            key={portfolio.id}
-                            title={portfolio.title}
-                            videoLink={portfolio.videoLink}
-                            featuredVideo={portfolio.featuredVideo}
-                            thumb={`/images/portfolio/${portfolio.thumb}`}
-                            link={portfolio.link}
-                        />
-                    ))}
+                {Array.isArray(filteredPortfolios) && filteredPortfolios.map(portfolio => (
+    <Portfolio
+        key={portfolio.id}
+        title={portfolio.title}
+        videoLink={portfolio.videoLink}
+        featuredVideo={portfolio.featuredVideo}
+        thumb={`/images/portfolio/${portfolio.thumb}`}
+        link={portfolio.link}
+    />
+))}
                 </div>
             </div>
 
