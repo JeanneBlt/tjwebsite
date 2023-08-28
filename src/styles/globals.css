@@ -1,8 +1,14 @@
-@import '~react-modal-video/css/modal-video.min.css';
-
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import '~react-modal-video/css/modal-video.min.css';
+
 
 @layer utilities {
     .animation-delay-2000 {
