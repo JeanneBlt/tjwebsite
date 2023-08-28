@@ -1,7 +1,9 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
 @import '~react-modal-video/css/modal-video.min.css';
+
 
 @layer utilities {
     .animation-delay-2000 {
@@ -10,18 +12,15 @@
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    line-height: 1.75;
-    color: #333333;
+    @apply font-base text-body text-body leading-loose;
 }
 
 p:not(:last-child) {
-    margin-bottom: 1rem;
+    @apply mb-4;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #202020;
+    @apply text-dark;
 }
 
 h1, h2, h3, h4 {
@@ -29,24 +28,18 @@ h1, h2, h3, h4 {
 }
 
 h5, h6 {
-    font-weight: 600;
+    @apply font-semibold;
 }
 
 ul, ol {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+    @apply p-0 m-0 list-none;
 }
 
 /*
     Container
  */
 .container {
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    @apply sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px]
 }
 
 /*
@@ -55,8 +48,9 @@ ul, ol {
 
 .nav li a:hover span {
     transform: translate3d(0, -12px, 0);
-    opacity: 0;
+    @apply opacity-0;
 }
+
 
 /*
     Icon Spin
