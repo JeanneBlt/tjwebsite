@@ -35,14 +35,15 @@ const Services = () => {
                     </div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-7">
-                    {otherServices.map(service => (
-                        <Service
-                            key={service.id}
-                            desc={<div className="bio-text" dangerouslySetInnerHTML={{__html: service.desc}}/>}
-                            title={service.title}
-                            thumb={`/images/${service.icon}`}
-                        />
-                    ))}
+                {Array.isArray(otherServices) && otherServices.map(service => (
+    <Service
+        key={service.id}
+        desc={<div className="bio-text" dangerouslySetInnerHTML={{__html: service.desc}}/>}
+        title={service.title}
+        thumb={`/images/${service.icon}`}
+    />
+))}
+
                 </div>
             </div>
             <Shape fillColor="#F9FAFB"/>

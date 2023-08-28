@@ -6,30 +6,30 @@ const Navbar = ({className}) => {
     return (
         <nav className={`navbar hidden sm:block ${className ?? ""}`}>
             <ul className="nav flex space-x-10">
-                {navbar.map(item => (
-                    <li key={item.id}>
-                        {checkExternalLink(item.href) ? (
-                            <a
-                                href={item.href} target="_blank"
-                                data-hover={item.name.toLowerCase()}
-                                className={`block text-white font-medium text-sm relative cursor-pointer after:duration-300 ${navItemHoverStyle}`}
-                            >
-                                <span className="block duration-300">{item.name}</span>
-                            </a>
-                        ) : (
-                            <Link
-                                spy={true}
-                                smooth={true}
-                                to={item.href}
-                                activeClass={navItemActiveStyle}
-                                data-hover={item.name.toLowerCase()}
-                                className={`block text-white font-medium text-sm relative cursor-pointer after:duration-300 ${navItemHoverStyle}`}
-                            >
-                                <span className="block duration-300">{item.name}</span>
-                            </Link>
-                        )}
-                    </li>
-                ))}
+            {navbar && Array.isArray(navbar) && navbar.map(item => (
+    <li key={item.id}>
+        {checkExternalLink(item.href) ? (
+            <a
+                href={item.href} target="_blank"
+                data-hover={item.name.toLowerCase()}
+                className={`block text-white font-medium text-sm relative cursor-pointer after:duration-300 ${navItemHoverStyle}`}
+            >
+                <span className="block duration-300">{item.name}</span>
+            </a>
+        ) : (
+            <Link
+                spy={true}
+                smooth={true}
+                to={item.href}
+                activeClass={navItemActiveStyle}
+                data-hover={item.name.toLowerCase()}
+                className={`block text-white font-medium text-sm relative cursor-pointer after:duration-300 ${navItemHoverStyle}`}
+            >
+                <span className="block duration-300">{item.name}</span>
+            </Link>
+        )}
+    </li>
+))}
             </ul>
         </nav>
     );
