@@ -9,7 +9,7 @@ const Contact = () => {
                 <SectionTitle
                     title="Get In Touch"
                 />
-
+{/* test */}
                 <div className="grid grid-cols-1 md:grid-cols-12">
                     <div className="col-span-5">
                         <div className="font-medium space-y-2">
