@@ -1,0 +1,19 @@
+{
+  "name": "Jeanne Boulet",
+  "bio": "<p>I'm fond of video games since my childhood so I directed my studies to work in this field.</p> <p>After graduating from high school, I did a 2-year course in a science preparatory class to prepare for the engineering schools entrance exams. I'm currently in 2nd year of computer science engineering studies at ESIEE Paris. I also have a computer science bachelor's degree from Gustave Eiffel University.</p> <p>I'm a passionate about golf that I practised in competition all along my high school years.</p>",
+  "thumb": "about-left-thumb.jpg",
+  "socialMedia": [
+    {
+      "id": 1,
+      "media": "linkedin",
+      "icon": "FaLinkedinIn",
+      "link": "https://www.linkedin.com/in/jeanne-boulet-12034522b/"
+    },
+    {
+      "id": 2,
+      "media": "github",
+      "icon": "FaGithub",
+      "link": "https://github.com/JeanneBlt"
+    }
+  ]
+}

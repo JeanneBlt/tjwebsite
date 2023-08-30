@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Software Mastery",
+    "desc": "Visual Studio, BlueJ, GitHub, Linux, Cisco Packet tracer, MySQL, VirtualBox, Unity, Android Studio, SSMS 18",
+    "icon": "software-logo.png"
+  },
+  {
+    "id": 2,
+    "title": "Assets",
+    "desc": "Sociable, Passionnate, Determined",
+    "icon": "assets-logo.png"
+  },
+  {
+    "id": 3,
+    "title": "Professional Experience",
+    "desc": "<p><strong>From April 2023</strong> Aezan Paris Développeuse Web Full Stack</p>",
+    "icon": "professionnal-logo.png"
+  },
+  {
+    "id": 4,
+    "title": "Language",
+    "desc": "<p><strong>French</strong> Native Speakers French Certificate - Projet Voltaire</p> <p><strong>English</strong> TOEIC : 925/990 Intercultural Virtual Exchange course 'Climate Movements' - Sharing Perspectives Foundation</p>",
+    "icon": "language-logo.png"
+  }
+]
