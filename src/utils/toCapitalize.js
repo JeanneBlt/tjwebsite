@@ -1,24 +1,26 @@
-/***
- * Capitalize Word
- * @param string
- * @param everyWord
- * @returns {string|*}
+/**
+ * Capitalize Words
+ * @param {string} string - The input string to be capitalized.
+ * @param {boolean} everyWord - Whether to capitalize every word or just the first one.
+ * @returns {string} - The capitalized string.
  */
 const toCapitalize = (string, everyWord) => {
-    if (string) {
-        string = string.trim();
-        if (everyWord) {
-            return string.split(" ").map(word => {
-                const lower = word.toLowerCase();
-                return word.charAt(0).toUpperCase() + lower.slice(1);
-            }).join(" ");
-        } else {
-            const lower = string.toLowerCase();
-            return string.charAt(0).toUpperCase() + lower.slice(1);
-        }
+    if (!string) {
+        return ""; // Handle empty input
+    }
+
+    const trimmedString = string.trim();
+    if (everyWord) {
+        const words = trimmedString.split(" ");
+        const capitalizedWords = words.map(word => {
+            const lower = word.toLowerCase();
+            return word.charAt(0).toUpperCase() + lower.slice(1);
+        });
+        return capitalizedWords.join(" ");
     } else {
-        return ""; // Ou retourner un message d'erreur approprié si nécessaire
+        const lower = trimmedString.toLowerCase();
+        return trimmedString.charAt(0).toUpperCase() + lower.slice(1);
     }
 };
 
-export default toCapitalize
+export default toCapitalize;
