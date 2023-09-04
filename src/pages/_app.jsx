@@ -4,7 +4,7 @@ const Rokstar = ({Component, pageProps}) => {
     return (
         <>
             <Head>
-                <title>TechnoloJ Web Site</title>
+                <title>Jeanne Boulet WebSite</title>
             </Head>
             <Component {...pageProps} />
         </>
