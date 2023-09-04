@@ -22,7 +22,8 @@ WORKDIR /usr/share/nginx/html
 RUN rm -rf ./*
 
 # Copier les fichiers construits depuis l'étage précédent (builder)
-COPY --from=builder /app/out .
+COPY --from=builder /app/dist ./   
+# Assurez-vous que les fichiers construits sont dans "/app/dist."
 
 # Configuration optionnelle : Vous pouvez copier les fichiers de configuration Nginx personnalisés ici, le cas échéant.
 
