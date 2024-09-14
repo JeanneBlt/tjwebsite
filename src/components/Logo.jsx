@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Logo = ({variant, className}) => {
     return (
-        <Link href="/">
+        <Link href="/" legacyBehavior>
             <a className={`leading-0 inline-block ${className ?? ""}`}>
                 <Image
                     width={50}
