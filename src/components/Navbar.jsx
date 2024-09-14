@@ -22,7 +22,7 @@ const Navbar = ({className}) => {
                 smooth={true}
                 to={item.href}
                 activeClass={navItemActiveStyle}
-                data-hover={item.name.toLowerCase()}
+                data-hover={item.name}
                 className={`block text-white font-medium text-sm relative cursor-pointer after:duration-300 ${navItemHoverStyle}`}
             >
                 <span className="block duration-300">{item.name}</span>

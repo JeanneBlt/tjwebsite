@@ -1,9 +1,8 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
-
 @import '~react-modal-video/css/modal-video.min.css';
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @layer utilities {
     .animation-delay-2000 {
@@ -24,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3, h4 {
-    font-weight: 500;
+    @apply font-bold;
 }
 
 h5, h6 {
@@ -75,19 +74,4 @@ ul, ol {
     100% {
         transform: rotate(359deg);
     }
-}
-
-/* redesign */
-
-.before\:bg-dark::before {
-    --tw-bg-opacity: 0 !important;
-}
-
-.font-heading {
-    font-family: "Montserrat", sans-serif;
-}
-
-.date-placeholder {
-    display: inline-block;
-    width: 220px; /* Ajustez la largeur en fonction de vos besoins */
 }
