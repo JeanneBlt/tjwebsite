@@ -1,6 +1,6 @@
+
+
 {
-    "appService.zipIgnorePattern": [
-        "node_modules{,/**}",
-        ".vscode{,/**}"
-    ]
-}
+    "css.customData": [".vscode/tailwind.json"]
+  }
+

@@ -34,7 +34,7 @@ const Portfolio = ({title, thumb, featuredVideo, videoLink, link}) => {
                         <Image src={thumb} alt={title} />
                     </a>
                 ) : (
-                <Link href="/">
+                <Link href="/" legacyBehavior>
                     <a>
                         <Image
                             src={thumb}

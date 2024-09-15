@@ -6,8 +6,8 @@ const Image = ({src, ...props}) => {
             <div className="w-full custom-image">
                 <NextImage
                     src={src}
-                    layout="fill"
-                    objectFit="contain"
+                    fill
+                    style={{ objectFit: 'contain' }}
                     className="!w-full !relative !h-unset"
                     {...props}
                 />

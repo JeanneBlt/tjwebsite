@@ -1,7 +1,7 @@
 import Image from "./Image";
 import PropTypes from "prop-types";
 
-const Service = ({thumb, title, desc, className}) => {
+const Service = ({ thumb, title, desc, className }) => {
     return (
         <div className={`service group relative flex px-3 py-5 rounded-md duration-300 hover:bg-gray-50 ${serviceBefore} ${serviceAfter} ${className ?? ""}`}>
             {/* Service Icon */}
@@ -15,7 +15,8 @@ const Service = ({thumb, title, desc, className}) => {
             {/* Service Content */}
             <div>
                 <h2 className="font-semibold text-base mb-3">{title}</h2>
-                <p>{desc}</p>
+                {/* Affichage sécurisé du HTML */}
+                <div dangerouslySetInnerHTML={{ __html: desc }} />
             </div>
         </div>
     );
@@ -27,10 +28,7 @@ const serviceAfter = "after:absolute after:left-9 after:bottom-4 after:h-[10px] 
 Service.propTypes = {
     thumb: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
-    desc: PropTypes.oneOfType([
-        PropTypes.string,
-        PropTypes.object // Ou le type approprié pour desc
-    ]).isRequired,
+    desc: PropTypes.string.isRequired,  // desc est maintenant une chaîne de caractères
 };
 
 export default Service;
