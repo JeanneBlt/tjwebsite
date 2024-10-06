@@ -1,30 +1,30 @@
 [
   {
     "id": 1,
+    "title": "Unity Project",
+    "categories": ["Personal Projects"],
+    "thumb": "unity-project.jpg",
+    "featuredVideo": false,
+    "videoLink":"",
+    "link": "https://github.com/JeanneBlt/2D_game"
+  },
+  {
+    "id": 2,
+    "title": "Dehumanism",
+    "categories": ["Personal Projects"],
+    "thumb": "dehumanism-image.jpg",
+    "featuredVideo": false,
+    "videoLink":"",
+    "link": "https://github.com/JeanneBlt/Dehumanism"
+  },
+  {
+    "id": 3,
     "title": "The Test",
     "categories": ["School Projects"],
     "thumb": "spawnforest.jpg",
     "featuredVideo": false,
     "videoLink":"",
     "link": "https://github.com/JeanneBlt/Test"
-  },
-  {
-    "id": 2,
-    "title": "Flipper",
-    "categories": ["School Projects"],
-    "thumb": "flipper-image.jpg",
-    "featuredVideo": false,
-    "videoLink":"",
-    "link": "https://github.com/JeanneBlt/Flipper"
-  },
-  {
-    "id": 3,
-    "title": "Labyrinthe",
-    "categories": ["School Projects"],
-    "thumb": "labyrinthe-image.jpg",
-    "featuredVideo": false,
-    "videoLink":"",
-    "link": "https://github.com/JeanneBlt/Labyrinthe"
   },
   {
     "id": 4,
@@ -37,20 +37,20 @@
   },
   {
     "id": 5,
-    "title": "Unity Project",
-    "categories": ["Personal Projects"],
-    "thumb": "unity-project.jpg",
+    "title": "Labyrinthe",
+    "categories": ["School Projects"],
+    "thumb": "labyrinthe-image.jpg",
     "featuredVideo": false,
     "videoLink":"",
-    "link": "https://github.com/JeanneBlt/2D_game"
+    "link": "https://github.com/JeanneBlt/Labyrinthe"
   },
   {
     "id": 6,
-    "title": "Dehumanism",
-    "categories": ["Personal Projects"],
-    "thumb": "dehumanism-image.jpg",
+    "title": "Flipper",
+    "categories": ["School Projects"],
+    "thumb": "flipper-image.jpg",
     "featuredVideo": false,
     "videoLink":"",
-    "link": "https://github.com/JeanneBlt/Dehumanism"
+    "link": "https://github.com/JeanneBlt/Flipper"
   }
 ]
