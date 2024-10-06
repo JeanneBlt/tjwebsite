@@ -43,5 +43,14 @@
     "featuredVideo": false,
     "videoLink":"",
     "link": "https://github.com/JeanneBlt/2D_game"
+  },
+  {
+    "id": 6,
+    "title": "Dehumanism",
+    "categories": ["Personal Projects"],
+    "thumb": "dehumanism-image.jpg",
+    "featuredVideo": false,
+    "videoLink":"",
+    "link": "https://github.com/JeanneBlt/Dehumanism"
   }
 ]
